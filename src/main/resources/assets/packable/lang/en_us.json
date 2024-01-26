@@ -1,0 +1,22 @@
+{
+  "item.packable.ruby": "Ruby",
+  "item.packable.raw_ruby": "Raw Ruby",
+  "item.packable.metal_detector": "Metal Detector",
+
+  "item.packable.tomato": "Tomato",
+  "item.packable.coal_briquette": "Coal Briquette",
+
+  "block.packable.ruby_block": "Block of Ruby",
+  "block.packable.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.packable.ruby_ore": "Ruby Ore",
+  "block.packable.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.packable.nether_ruby_ore": "Nether Ruby Ore",
+  "block.packable.end_stone_ruby_ore": "End Stone Ruby Ore",
+
+  "block.packable.sound_block": "Sound Block",
+
+  "tooltip.packable.metal_detector.tooltip": "Finds valuables underground",
+
+  "itemgroup.ruby": "Ruby Tutorial Group"
+}

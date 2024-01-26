@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "packable",
+	"version": "${version}",
+	"name": "Packable",
+	"description": "This is a Packable made by patpuck :)",
+	"authors": [
+		"patpuck!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/packable/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.patpuck.packable.Packable"
+		],
+		"client": [
+			"net.patpuck.packable.PackableClient"
+		],
+		"fabric-datagen": [
+			"net.patpuck.packable.PackableDataGenerator"
+		]
+	},
+	"mixins": [
+		"packable.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
